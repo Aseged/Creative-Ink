@@ -1,0 +1,22 @@
+
+#dont allow directory navigation such as images
+IndexIgnore */*
+
+#redirect 404 error to custome error page
+ErrorDocument 301 /Ooops.html
+ErrorDocument 302 /Ooops.html
+ErrorDocument 404 /Ooops.html
+ErrorDocument 401 /Ooops.html
+ErrorDocument 403 /Ooops.html
+ErrorDocument 404 /Ooops.html
+ErrorDocument 500 /Ooops.html
+
+#prevent access to the htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+#allow page rendering without the extention 
+
+Options +MutliViews

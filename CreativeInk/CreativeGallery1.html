@@ -1,0 +1,514 @@
+<!DOCTYPE HTML>
+	<html>
+		
+		<head>
+			<title>Creative Ink Tattoos</title>
+			<meta charset=UTF-8>
+			
+			<script type="text/javascript" src="JS/jquery-1.11.1.min.js"></script>
+			<script type="text/javascript" src="JS/jquery.innerfade.js"></script>
+			<script type="text/javascript" src="JS/JScript1.js"></script>
+			<script type="text/javascript" src="JS/jquery.masonry.js"></script>
+			<script type="text/javascript" src="JS/jquery.lightbox-0.5.js"></script>
+
+			
+			<link href="CSS/CreativeMain.css" rel="stylesheet" type="text/css" />
+			<link href="CSS/CreativeMobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:1600px)" />
+			<!--<link href="CSS/Tablet-Style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:200px) and (max-width:767px)"/> -->
+       
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			      
+				ga('create', 'UA-71208224-1', 'auto');
+				ga('send', 'pageview');
+			      
+			 </script>
+	   		 <script>
+			 // jQuery
+					var $container = jQuery('.masonryImagesWrapper');
+					// initialize
+					$container.masonry({
+					  columnWidth: 200,
+					  itemSelector: '.masonryImage'
+					});
+
+			</script> 
+			
+			
+			
+			<script type="text/javascript">
+			$(function() {
+				$('.masonryImagesWrapper a').lightBox();
+			});
+			</script>
+	   <script type="text/javascript">
+
+				function toggle_visibility(id) {
+				   var e = document.getElementById(id);
+				   if(e.style.display == 'block')
+					  e.style.display = 'none';
+				   else
+					  e.style.display = 'block';
+				}
+
+</script>
+	   
+	   </head>
+		
+        <body>
+
+			<header>
+			<div id="inkContainer">
+			</div>
+			<div id="ribbonsContainer">
+			</div>
+				<div id="logoContainer">
+					
+					
+					<a href="index.html"><div id="logoHolder"></div></a>
+
+					<div id="iconHolder">
+						<a href="#">
+								<div id="Search"></div>
+							</a>
+					<form action="http://www.google.com/search">
+						<input type="search" name="q" placeholder="Search" >
+					</form>							
+							
+						<div id="icons">
+							<!--social icon animation -->
+							<div id="iconsouterWrapper">
+								<a href="http://www.instagram.com"><div class="iconDiv1">
+									<img class="iconWrapper" src="Images/instagram.jpg" alt="instagram" />
+								</div></a>
+								
+								<a href="http://www.twitter.com"><div class="iconDiv2">
+									<img class="iconWrapper" src="Images/twitter.jpg" alt="twitter"/>
+								</div></a>
+								
+								<a href="http://www.facebook.com"><div class="iconDiv3">
+									<img class="iconWrapper" src="Images/facebook.jpg" alt="facebook" />
+								</div></a>
+							</div>								
+						</div>
+						<nav id="topMenu">
+						
+							<ul>
+							   <li><a href="index.html"  >HOME </a></li>
+							   <li><a href="CreativeAbout.html"  >ABOUT </a></li>
+							   <li><a href="#"  >SERVICES ▼ </a>
+									<ul> 
+										<li>
+										<a href="CreativeShop.html"  >Clothing</a></li><li>
+										<a href="CreativeAftercare.html"  >Aftercare</a></li><li>
+										<a href="CreativeShop.html"  >shop</a></li> <li>
+									</ul> 
+								</li>  
+								<li><a href="#" class="scrollToBottom">CONTACTS</a></li>
+							</ul>
+						</nav>
+						<!--mobile menu  -->
+
+						
+					</div>
+									
+				</div>	
+				<div id="mobileMenu">
+					<a href="#" onclick="toggle_visibility('side');"><div id="mobilemenuholder">MENU</div></a>
+				</div>
+				<aside id="side">
+					<a href="index.html"> 
+						<div class="sideMenu" > <P>HOME </P></div>
+					</a>
+					<a href="CreativeAbout.html"> 
+						<div class="sideMenu"><P>ABOUT </P></div>
+					</a>
+					<a href="CreativeShop.html"> 
+						<div class="sideMenu"><P>CLOTHING </P></div>
+					</a>
+					<a href="CreativeAftercare.html"> 
+						<div class="sideMenu"> <P>AFTERCARE </P> </div>
+					</a>
+					<a href="CreativeShop.html"> 
+						<div class="sideMenu"> <P>SHOP </P></div>
+					</a>
+					<a href="#"> 
+						<div  class="scrollToBottom"> <P>CONTACT </P></div>
+					</a>
+		   </aside>						
+			</header>
+		
+				<div id="banner-picture">
+					<img id="rotateImg2" class="BackImg" src="Images/galleryBack1.jpg" alt="RotatineImg2"/>
+					
+				</div>
+	
+			
+			<section id="mainContainer">
+
+			<a href="CreativeGallery1.html" >
+					<div id="ImgHeadeGallery">
+						 <h1>Our Work</h1>
+					</div>
+				</a>					
+			</section>						
+					
+				<div class="masonryImagesWrapper">
+					<div class="masonryImage-sizer"></div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative1.jpg" title="Our Work">
+							<img id="ourWork1" class="OurWorkGallery" src="Gallery/tattoosCreative1.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative2.jpg" title="Our Work">
+							<img id="ourWork2" class="OurWorkGallery" src="Gallery/tattoosCreative2.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative3.jpg" title="Our Work">
+							<img id="ourWork3" class="OurWorkGallery" src="Gallery/tattoosCreative3.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative4.jpg" title="Our Work">
+							<img id="ourWork4" class="OurWorkGallery" src="Gallery/tattoosCreative4.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative5.jpg" title="Our Work">
+							<img id="ourWork5" class="OurWorkGallery" src="Gallery/tattoosCreative5.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative6.jpg" title="Our Work">
+							<img id="ourWork6" class="OurWorkGallery" src="Gallery/tattoosCreative6.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative7.jpg" title="Our Work">
+							<img id="ourWork7" class="OurWorkGallery" src="Gallery/tattoosCreative7.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative8.jpg" title="Our Work">
+							<img id="ourWork8" class="OurWorkGallery" src="Gallery/tattoosCreative8.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative9.jpg" title="Our Work">
+							<img id="ourWork9" class="OurWorkGallery" src="Gallery/tattoosCreative9.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative10.jpg" title="Our Work">
+							<img id="ourWork10" class="OurWorkGallery" src="Gallery/tattoosCreative10.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative11.jpg" title="Our Work">
+							<img id="ourWork11" class="OurWorkGallery" src="Gallery/tattoosCreative11.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative12.jpg" title="Our Work">
+							<img id="ourWork12" class="OurWorkGallery" src="Gallery/tattoosCreative12.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative13.jpg" title="Our Work">
+							<img id="ourWork13" class="OurWorkGallery" src="Gallery/tattoosCreative13.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative14.jpg" title="Our Work">
+							<img id="ourWork14" class="OurWorkGallery" src="Gallery/tattoosCreative14.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative15.jpg" title="Our Work">
+							<img id="ourWork15" class="OurWorkGallery" src="Gallery/tattoosCreative15.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative16.jpg" title="Our Work">
+							<img id="ourWork16" class="OurWorkGallery" src="Gallery/tattoosCreative16.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative17.jpg" title="Our Work">
+							<img id="ourWork17" class="OurWorkGallery" src="Gallery/tattoosCreative17.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative18.jpg" title="Our Work">
+							<img id="ourWork18" class="OurWorkGallery" src="Gallery/tattoosCreative18.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative19.jpg" title="Our Work">
+							<img id="ourWork19" class="OurWorkGallery" src="Gallery/tattoosCreative19.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative20.jpg" title="Our Work">
+							<img id="ourWork20" class="OurWorkGallery" src="Gallery/tattoosCreative20.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative21.jpg" title="Our Work">
+							<img id="ourWork21" class="OurWorkGallery" src="Gallery/tattoosCreative21.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative22.jpg" title="Our Work">
+							<img id="ourWork22" class="OurWorkGallery" src="Gallery/tattoosCreative22.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative23.jpg" title="Our Work">
+							<img id="ourWork23" class="OurWorkGallery" src="Gallery/tattoosCreative23.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative24.jpg" title="Our Work">
+							<img id="ourWork24" class="OurWorkGallery" src="Gallery/tattoosCreative24.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative25.jpg" title="Our Work">
+							<img id="ourWork25" class="OurWorkGallery" src="Gallery/tattoosCreative25.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative26.jpg" title="Our Work">
+							<img id="ourWork26" class="OurWorkGallery" src="Gallery/tattoosCreative26.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative27.jpg" title="Our Work">
+							<img id="ourWork27" class="OurWorkGallery" src="Gallery/tattoosCreative27.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative28.jpg" title="Our Work">
+							<img id="ourWork28" class="OurWorkGallery" src="Gallery/tattoosCreative28.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative29.jpg" title="Our Work">
+							<img id="ourWork29" class="OurWorkGallery" src="Gallery/tattoosCreative29.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative30.jpg" title="Our Work">
+							<img id="ourWork30" class="OurWorkGallery" src="Gallery/tattoosCreative30.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative31.jpg" title="Our Work">
+							<img id="ourWork31" class="OurWorkGallery" src="Gallery/tattoosCreative31.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative32.jpg" title="Our Work">
+							<img id="ourWork32" class="OurWorkGallery" src="Gallery/tattoosCreative32.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative33.jpg" title="Our Work">
+							<img id="ourWork33" class="OurWorkGallery" src="Gallery/tattoosCreative33.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative34.jpg" title="Our Work">
+							<img id="ourWork34" class="OurWorkGallery" src="Gallery/tattoosCreative34.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative35.jpg" title="Our Work">
+							<img id="ourWork35" class="OurWorkGallery" src="Gallery/tattoosCreative35.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative36.jpg" title="Our Work">
+							<img id="ourWork36" class="OurWorkGallery" src="Gallery/tattoosCreative36.jpg" alt="Our Work"/>
+							</a>
+
+					</div>
+					<div class="masonryImage">
+					<a href="Gallery/LargSize/tattoosCreative1.jpg" title="Our Work">
+							<img id="ourWork37" class="OurWorkGallery" src="Gallery/tattoosCreative37.jpg" alt="Our Work"/>
+							</a>
+						</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative3.jpg" title="Our Work">
+							<img id="ourWork39" class="OurWorkGallery" src="Gallery/tattoosCreative39.jpg" alt="Our Work"/>
+							</a>
+					</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative4.jpg" title="Our Work">
+							<img id="ourWork40" class="OurWorkGallery" src="Gallery/tattoosCreative40.jpg" alt="Our Work"/>
+							</a>
+						</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative5.jpg" title="Our Work">
+							<img id="ourWork41" class="OurWorkGallery" src="Gallery/tattoosCreative41.jpg" alt="Our Work"/>
+							</a>
+							</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative6.jpg" title="Our Work">
+							<img id="ourWork42" class="OurWorkGallery" src="Gallery/tattoosCreative42.jpg" alt="Our Work"/>
+							</a>
+						</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative7.jpg" title="Our Work">
+							<img id="ourWork43" class="OurWorkGallery" src="Gallery/tattoosCreative43.jpg" alt="Our Work"/>
+							</a>
+						</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative8.jpg" title="Our Work">
+							<img id="ourWork44" class="OurWorkGallery" src="Gallery/tattoosCreative44.jpg" alt="Our Work"/>
+							</a>
+						</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative9.jpg" title="Our Work">
+							<img id="ourWork45" class="OurWorkGallery" src="Gallery/tattoosCreative45.jpg" alt="Our Work"/>
+							</a>
+							</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative10.jpg" title="Our Work">
+							<img id="ourWork46" class="OurWorkGallery" src="Gallery/tattoosCreative46.jpg" alt="Our Work"/>
+							</a>
+						</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative11.jpg" title="Our Work">
+							<img id="ourWork47" class="OurWorkGallery" src="Gallery/tattoosCreative47.jpg" alt="Our Work"/>
+							</a>
+						</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative12.jpg" title="Our Work">
+							<img id="ourWork48" class="OurWorkGallery" src="Gallery/tattoosCreative48.jpg" alt="Our Work"/>
+							</a>
+							</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative2.jpg" title="Our Work">
+							<img id="ourWor49" class="OurWorkGallery" src="Gallery/tattoosCreative49.jpg" alt="Our Work"/>
+							</a>
+						</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative11.jpg" title="Our Work">
+							<img id="ourWork50" class="OurWorkGallery" src="Gallery/tattoosCreative50.jpg" alt="Our Work"/>
+							</a>
+						</div>
+					<div class="masonryImage">
+							<a href="Gallery/LargSize/tattoosCreative12.jpg" title="Our Work">
+							<img id="ourWork51" class="OurWorkGallery" src="Gallery/tattoosCreative51.jpg" alt="Our Work"/>
+							</a>
+						</div>
+								
+				</div>				
+				
+			
+
+			<footer id="footer" >
+				<div id="footerWrapper">
+					<div class="footerLinks">
+						<ul>
+							<li><a href="#"  >Complaints </a></li>
+							
+						</ul>
+					</div>
+					<div class="footerLinks">
+						<ul>
+							<li><a href="#"  >Meet the Staff </a></li>
+						</ul> 
+					</div>
+				
+					<div class="footerLinks">
+						<ul>
+							<li><a href="#"  >What others say </a></li>
+						</ul>
+					</div>
+					<div id="copyright">
+					<p>Copyright &#169 Aseged Woldeselassie 2016.</p>
+				</div>
+				</div>
+			</footer>
+			<a href="#" class="scrollToTop"></a>
+
+		</body>
+</html>
