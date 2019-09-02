@@ -1,0 +1,618 @@
+﻿body 
+{
+    margin: 0;
+    }
+
+/* top menu animation */
+.gizle {
+  top: -150px;
+}
+.sabit {
+  top:0;
+	z-index: 9999;
+}
+
+#dummyTop 
+{
+    width:100%;
+    height:150px;
+    
+    }
+/* top div and rotating banner */
+#logoDiv 
+{
+    width: 100%;
+    height: 50px;
+    background-color:#ffffff;
+    z-index: 1;
+    transition:  .5s;
+   position: fixed;
+    }
+ .fixed 
+ {
+     position:fixed;
+     top:0;
+     }
+    
+#logoContainer 
+{
+    width: 500px;
+    height: 100%;
+    margin-right:auto;
+    margin-left: auto;
+    }
+ #logoHolder 
+ {
+     float:left;
+     width: 50%;
+     height:100%;
+     background-image: url(../Images/accLogoImg.jpg);
+      background-size:100% 100%;
+     }
+#iconHolder 
+{
+    float:left;
+     width: 50%;
+     height:100%;
+    
+    }
+
+#icons
+{
+    width:30%;
+    height:70%;
+    float:right;
+    display:inline-block;
+     background-image: url(../Images/acc_IconBackground.jpg);
+      background-size:100% 100%;
+
+    }
+#icons a:hover img
+{
+    opacity:.6;
+    margin-top:56px;
+	transition:all 0.5s linear;							
+	-webkit-transition:all 0.5s ease-in-out;							
+	-moz-transition:all 0.5s ease-in-out;
+    }
+.socialIcon 
+{
+    float:right;
+    display:inline-block;
+    border-style: none;
+    width:100%;
+    height:100%;
+    
+    } 
+    
+.iconRapper 
+{
+    display:inline-block;
+    float:right;
+    margin:60px 0 0 0;
+    border:none;
+     width:40px;
+    height:40px;
+    }
+    
+
+#topMenu 
+{ float:right;
+  width:100%;
+  height:30%;
+  text-align: right;
+}
+
+#topMenu ul li {display:inline-block; 
+				margin:0  0 0 50px; 
+				font-family:Lintel, Track, Georgia, "Times New Roman", Times, serif; 
+				text-decoration: none;
+				font-size:11px;
+				font-weight:bold;
+				text-transform:uppercase;
+				
+				
+    }
+    
+#topMenu ul li a 
+{
+    color:#999999;
+    text-decoration: none;
+    }
+     
+#topMenu ul li a:hover 
+{
+    color: #cccccc;
+    -webkit-transition: all .2s ease-in-out; 
+-moz-transition: all .2s ease-in-out; 
+-ms-transition: all .2s ease-in-out; 
+-o-transition: all .2s ease-in-out; 
+transition: all .2s ease-in-out; 
+
+ } 
+ 
+
+#topMenu ul li a:active {
+     background-color:#cccccc;
+ }
+#topMenu ul li:hover ul{
+     display:block;
+-webkit-transition: all .2s ease-in-out; 
+-moz-transition: all .2s ease-in-out; 
+-ms-transition: all .2s ease-in-out; 
+-o-transition: all .2s ease-in-out; 
+transition: all .2s ease-in-out; 
+
+ } 
+ 
+#topMenu ul ul {
+     display:none;
+     position:absolute;
+     margin-left:-40px;
+     text-align:left;
+     background-color:#ffffff;
+	font-family:Lintel, Track, Georgia, "Times New Roman", Times, serif; 
+	text-decoration: none;
+	font-size:11px;
+	font-weight:bold;
+	line-height:100%;
+	text-transform:uppercase;
+	line-height:10px;
+	-webkit-transition: all .2s ease-in-out; 
+	
+ }  
+ 
+#topMenu ul ul li {
+     display:block;
+     font-size:10px;
+     margin-left:-20px;
+     padding:4px 20px 4px 20px;
+     -webkit-transition: all .2s ease-in-out;    
+
+ }   
+ #topMenu ul ul li a:hover
+ {
+      color: #cccccc;
+     border-top:1px solid #83c327;
+     -webkit-transition: all .2s ease-in-out; 
+-moz-transition: all .2s ease-in-out; 
+-ms-transition: all .2s ease-in-out; 
+-o-transition: all .2s ease-in-out; 
+transition: all .2s ease-in-out; 
+
+    
+ } 
+  #topMenu ul ul li a:active
+ {
+      background-color:#cccccc;
+ } 
+    
+#banner-picture
+{
+    width: 100%;
+    height: 100px;
+       position:relative;
+       z-index:-2;
+background-color:#ffffff;
+}
+
+       
+ .BackImg 
+{
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    opacity:.8;
+}
+
+/* main container */ 
+#mainContainer 
+{
+    width: 500px;
+    height: 100%;
+    margin-right:auto;
+    margin-left: auto;
+     margin-top: -40px;
+     
+    }
+    #textHolder1 
+    {
+       display:inline-block;
+       overflow:hidden;
+           color:#ffffff;
+           vertical-align:top;
+        width: 20%;
+        height:50%;
+        margin:160px 0 0 100px;
+        background-color:transparent;
+        }
+     #textHolder2 
+    {
+       display:inline-block;
+       overflow:hidden;
+           color:#ffffff;
+           vertical-align:top;
+        width: 20%;
+        height:50%;
+        margin:160px 0 0 110px;
+        background-color:transparent;
+        }
+     #textHolder3 
+    {
+       display:inline-block;
+       overflow:hidden;
+           color:#ffffff;
+           vertical-align:top;
+        width: 20%;
+        height:50%;       
+        margin:160px 0 0 120px;
+        background-color:transparent;
+        }
+
+.containers 
+{
+    display:block;
+    width:100%;
+    height:200px;
+    overflow:hidden;
+    text-align:left;
+	font-family: Corbert, Lintel, Georgia, "Times New Roman", Times, serif; 
+	text-decoration: none;
+	font-size:12px;
+
+    
+    }
+    
+  #welcome 
+  {
+       background-image: url(../Images/acc_Background1.jpg);
+      background-size:100% 100%;
+      }
+  #about 
+  {
+       background-image: url(../Images/acc_Background2.jpg);
+      background-size:100% 100%;
+      }
+      
+  #aboutUsText 
+  {
+      width:70%;
+      height:70%;
+      margin:100px auto 0 auto;
+      
+      }
+      
+   #aboutUsText p
+  {
+      font-family: Corbert, Lintel, Georgia, "Times New Roman", Times, serif; 
+	text-decoration: none;
+	color:#999999;
+	text-align:center;
+	font-size:14px;
+      }
+  #howitworks 
+  {
+       background-image: url(../Images/acc_Background3.jpg);
+      background-size:100% 100%;
+      }
+   .howitworksText
+   {
+       position:relative;
+       width:40%;
+       height:80%;
+       display:inline-block;
+       margin:100px 0 0 40px;
+       vertical-align:top;
+       background-color:transparent;
+       text-align:center;
+       color:#999999;
+       font-family: Corbert, Lintel, Track, Georgia, "Times New Roman", Times, serif;
+        font-size:14px;
+       }
+      #howitworksTextleft 
+      {
+          margin-left:100px;
+          }
+    .buttonsHowitworks
+    {
+        position:absolute;
+        width:100%;
+        height:8%;
+        bottom:0;
+        padding-top:10px;
+        background-color:#83c327;
+        border:1px solid transparent;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+         font-family: Track, Georgia, "Times New Roman", Times, serif;
+        font-size:22px;
+        font-weight:bold;
+        color:#ffffff;
+        text-transform:uppercase;
+-webkit-box-shadow: 10px 10px 43px -18px rgba(0,0,0,1);
+-moz-box-shadow: 10px 10px 43px -18px rgba(0,0,0,1);
+box-shadow: 10px 10px 43px -18px rgba(0,0,0,1);
+        }
+   
+   .buttonsHowitworks:hover
+    {
+        color:#cccccc;
+        background-color:#ffffff;
+        border:1px solid #83c327;
+        opacity:.8;
+        transition:all 0.5s linear;
+				-webkit-transition:all 0.4s linear;
+				-moz-transition:all 0.4s linear;
+				-ms-transition:all 0.4s linear;
+        }     
+   #contactus 
+  {
+       background-image: url(../Images/acc_Background4.jpg);
+      background-size:100% 100%;
+      }     
+
+/* side menus */
+#rightMenu 
+{
+    float:right;
+    width: 100px;
+    height: 100px;
+    margin-right:-100px;
+     margin-top: 40px;
+     background-color:#ffffff;
+     
+    }
+    
+ #rightMenu ul li {float:right; 
+				margin:0 50px 0 0; 
+				font-family:Lintel, Track, Georgia, "Times New Roman", Times, serif; 
+				text-decoration: none;
+				font-size:11px;
+				font-weight:bold;
+				line-height:100%;
+				text-transform:uppercase;
+				text-decoration: none;
+				list-style-type:none;
+    }
+    
+#rightMenu ul li a 
+{
+    color:#999999;
+    text-decoration: none;
+    }
+#rightMenu ul li a:hover {
+     color: #cccccc;
+     border-top:1px solid #83c327;
+     -webkit-transition: all .2s ease-in-out; 
+-moz-transition: all .2s ease-in-out; 
+-ms-transition: all .2s ease-in-out; 
+-o-transition: all .2s ease-in-out; 
+transition: all .2s ease-in-out; 
+
+ }
+    
+#leftMenu 
+{
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin-left:-100px;
+     margin-top: 40px;
+     background-color:#ffffff;
+    }
+    
+ #leftMenu ul li {float:left; 
+				margin:0 50px 0 0; 
+				font-family:Lintel, Track, Georgia, "Times New Roman", Times, serif; 
+				text-decoration: none;
+				font-size:11px;
+				font-weight:bold;
+				line-height:100%;
+				text-transform:uppercase;
+				text-decoration: none;
+				list-style-type:none;
+    }
+    
+#leftMenu ul li a 
+{
+    color:#999999;
+    text-decoration: none;
+    }
+    
+#leftMenu ul li a:hover {
+     color: #cccccc;
+    border-top:1px solid #83c327;
+    -webkit-transition: all .2s ease-in-out; 
+-moz-transition: all .2s ease-in-out; 
+-ms-transition: all .2s ease-in-out; 
+-o-transition: all .2s ease-in-out; 
+transition: all .2s ease-in-out; 
+
+ }   
+    
+    
+    /* footer */
+#footer 
+  {
+      height: 50px;
+      background-image: url(../Images/acc_footerBackground.jpg);
+      background-size:100% 100%;
+      }
+      .footerLinks 
+      {
+          width:25%;
+          height: 90%;
+          margin: 10px 2px 2px 80px;
+          display: inline-block;
+          background-color:transparent;
+          text-align:center;
+          color:#ffffff;
+          } 
+  #footer ul li {float:left; 
+				font-family:Lintel, Track, Georgia, "Times New Roman", Times, serif; 
+				text-decoration: none;
+				font-size:11px;
+				text-transform:uppercase;
+				text-decoration: none;
+				list-style-type:none;
+    }
+    
+#footer ul li a 
+{
+    color:#999999;
+    text-decoration: none;
+    }
+    
+#footer ul li a:hover {
+     color: #cccccc;
+ }   
+
+/* contact form*/
+
+.formContainer 
+{
+    width:48%;
+    height:100%;
+    margin:20px 0 0 0px;
+    display:inline-block;
+    background-color:transparent;
+    vertical-align:top;
+    padding:8px;
+    }
+    
+#formContainer1 
+{
+    border-right:1px solid #83c327;
+  -webkit-border-top-right-radius: 20px;
+-moz-border-radius-topright: 20px;
+border-top-right-radius: 20px; 
+-webkit-box-shadow: 10px 7px 11px -7px rgba(131,195,39,1);
+-moz-box-shadow: 10px 7px 11px -7px rgba(131,195,39,1);
+box-shadow: 10px 7px 11px -7px rgba(131,195,39,1); 
+padding:80px 20px 0 0;
+
+    }
+    
+#formContainer2 
+{
+    border-left:1px solid #83c327;
+-webkit-border-top-left-radius: 20px;
+-moz-border-radius-topleft: 20px;
+border-top-left-radius: 20px;
+-webkit-box-shadow: -10px 7px 11px -7px rgba(131,195,39,1);
+-moz-box-shadow: -10px 7px 11px -7px rgba(131,195,39,1);
+box-shadow: -10px 7px 11px -7px rgba(131,195,39,1);
+
+    }
+#formContainer1 h3 
+{
+    font-family: Track, Georgia, "Times New Roman", Times, serif; 
+				text-decoration: none;
+				text-decoration: none;
+				text-align:right;
+				color:#999999;
+    } 
+ #formContainer1 p 
+{
+    font-family: Corbert, Lintel, Track, Georgia, "Times New Roman", Times, serif; 
+				text-decoration: none;
+				text-decoration: none;
+				text-align:right;
+				color:#999999;
+    }    
+    
+#formContainer1 h1
+{
+    font-family:Track, Georgia, "Times New Roman", Times, serif; 
+		text-decoration: none;
+		text-decoration: none;
+		text-align:right;
+		color:#83c327;
+		
+	}    
+
+
+#formContainer2 h3 
+{
+    font-family: Track, Georgia, "Times New Roman", Times, serif; 
+				text-decoration: none;
+				text-decoration: none;
+				text-align:right;
+				color:#999999;
+    } 
+   
+
+
+.style9 
+        {
+            font-family: Corbert, Georgia, "Times New Roman", Times, serif;
+            font-size:11px;
+            color:#999999;
+
+        }
+.style2 
+        {
+            font-family: Track, Georgia, "Times New Roman", Times, serif;
+            font-size:11px;
+            color:#999999;
+
+        }
+ 
+        
+        .style11:hover 
+        {
+            opacity:.6;
+            background-color:#83c327;
+        }
+  #NameTextBox 
+  {
+     background: #fffbec;
+    border: 1px solid #fffbec;
+    -moz-box-shadow: 0 5px 0 0 #faedb5;
+    -webkit-box-shadow: 0 5px 0 0 #faedb5;
+    box-shadow: 0 5px 0 0 #faedb5;
+                outline:0;
+            border:1 solid #cccccc;
+
+      }
+.msgSend:hover 
+{
+    background-color:#83c327;
+    }
+.thanks_align 
+{
+    text-align:center;
+    color:#83c327;
+    }
+ .thanks_align p
+{
+    text-align:center;
+    color:#83c327;
+    font-family: Corbert, Lintel, Track, Georgia, "Times New Roman", Times, serif;
+    font-size:14px;
+    }
+    
+    
+ /*.scrollToTop{
+	width:50px; 
+	height:50px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	float:right;
+	bottom:50px;
+	right:50px;
+	display:none;
+	background-image:url(../Images/arrow-top.png);
+	background-size: 100% 100%;
+	opacity:.6;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
